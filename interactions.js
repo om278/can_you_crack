@@ -18,7 +18,7 @@ function onCodeInput(number) {
     }
 }
 
-function revealAnswer() {
+function .() {
     document.getElementById("answerLabel").innerHTML = correctCode[0] + "" + correctCode[1] + "" + correctCode[2]
 }
 
