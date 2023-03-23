@@ -18,9 +18,9 @@ function onCodeInput(number) {
     }
 }
 
-function revealAnswer() {
-    document.getElementById("answerLabel").innerHTML = correctCode[0] + "" + correctCode[1] + "" + correctCode[2]
-}
+//function revealAnswer() {
+ //   document.getElementById("answerLabel").innerHTML = correctCode[0] + "" + correctCode[1] + "" + correctCode[2]
+//}
 
 function animateWithReflow(element, animation) {
     document.getElementById(element).classList.remove(animation)
